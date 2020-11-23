@@ -4,6 +4,9 @@ import img3 from "../user-dashboard/dashboard-imgs/database.png";
 import img4 from "../user-dashboard/dashboard-imgs/tick.png";
 import img5 from "../user-dashboard/dashboard-imgs/home.png";
 
+/* -------------------- ----------------------- */
+import img6 from "./dashboard-imgs/img1.png";
+import img7 from "./dashboard-imgs/img2.png";
 export const sidebarData = [
   {
     title: "Menu Item 1",
@@ -24,5 +27,22 @@ export const sidebarData = [
   {
     title: "Menu Item 5",
     img: img5,
+  },
+];
+
+export const data = [
+  {
+    title: `Welcome back! Chidimma.`,
+    body: ` See overview of analytics and reporting metrics and a lot more
+      interesting stuffs you can do here.`,
+    btnTitle: "Take A Tour",
+    img: img6,
+  },
+  {
+    title: `Welcome back! Chidimma.`,
+    bdy: ` See overview of analytics and reporting metrics and a lot more
+      interesting stuffs you can do here.`,
+    btnTitle: "Take A Tour",
+    img: img7,
   },
 ];
