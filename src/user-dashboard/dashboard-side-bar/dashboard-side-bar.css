@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Roboto:wght@300&family=Source+Sans+Pro:wght@300&display=swap");
+
+.sidebar {
+  background: #eff5fb;
+  height: 900px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.sidebar-logo {
+  margin: 40px 0 110px 0;
+  width: 230px;
+}
+
+.search-bar {
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(184, 193, 209, 0.1);
+  border-radius: 5px;
+  height: 48px;
+  width: 230px;
+  left: 28px;
+  top: 178px;
+  border: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.search-bar > input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  /*  */
+  width: 80%;
+  margin-left: 20px;
+}
+.search-bar > span {
+  display: block;
+  width: 16px;
+  height: 13.6px;
+  background-image: url("../dashboard-imgs/search-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -5px;
+  margin-left: 25px;
+}
+.list-items {
+  /*  height: 350px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 240px;
+}
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+.list-item_img {
+  margin-right: 20px;
+}
+
+.manage-users {
+  position: absolute;
+  bottom: 96px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 230px;
+}
+.manage-users span:nth-child(1) {
+  margin-right: 20px;
+}
