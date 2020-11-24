@@ -5,3 +5,6 @@
 .main-body{
     background: #F2F7FC; 
 }
+.dashboard{
+    display: flex;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./dashboard-body.css";
-import {data} from "../dashboardData"
+import { data } from "../dashboardData";
 
 const DashboardBody = () => {
   const [cardDate] = useState(data);
@@ -9,13 +9,12 @@ const DashboardBody = () => {
       <ul className="cards">
         {cardDate.map((el, i) => {
           return (
-            <li key={i} className="card">
-              <div>{el.title}</div>
-              <div>{el.bdy}</div>
-              <div>{el.btnTitle}</div>
-              <div>
-                <img />
-              </div>
+            <li key={i} className={`card ${el.cardBgColor}`}>
+              <div className="card_title">{el.title}</div>
+              <div className="card_text">{el.bdy}</div>
+              <div className={`card_btn ${el.btnStyle}`}>{el.btnTitle}</div>
+
+              <img src={el.img} />
             </li>
           );
         })}

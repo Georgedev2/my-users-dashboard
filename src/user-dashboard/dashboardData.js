@@ -33,16 +33,19 @@ export const sidebarData = [
 export const data = [
   {
     title: `Welcome back! Chidimma.`,
-    body: ` See overview of analytics and reporting metrics and a lot more
-      interesting stuffs you can do here.`,
-    btnTitle: "Take A Tour",
-    img: img6,
-  },
-  {
-    title: `Welcome back! Chidimma.`,
     bdy: ` See overview of analytics and reporting metrics and a lot more
       interesting stuffs you can do here.`,
     btnTitle: "Take A Tour",
+    img: img6,
+    cardBgColor: "cardBgColor1",
+    btnStyle:"btnStyle1"
+  },
+  {
+    title: `optimized Application Processing`,
+    bdy: ` We’ve optimized the system to process your application as fast as possible. Click on the button below to get started.`,
+    btnTitle: "New Request",
     img: img7,
+    cardBgColor: "cardBgColor2",
+    btnStyle:"btnStyle2"
   },
 ];
